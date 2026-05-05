@@ -75,7 +75,7 @@ For any other harness, create a root shim with the file name your tool auto-disc
 
 ## Open development
 
-The Agent Context Standard format was originally developed by [CONFIANZA23](https://confianza23.com), released as an open standard, and is being adopted by a growing number of agent products. The standard is open to contributions from the broader ecosystem.
+The Agent Context Standard format was originally developed by [CONFIANZA23](https://www.confianza23.es), released as an open standard, and is being adopted by a growing number of agent products. The standard is open to contributions from the broader ecosystem.
 
 ACS builds directly on the [Agent Skills](https://agentskills.io) open format published by Anthropic — the `skills/` directory inside any ACS project is, byte for byte, an Agent Skills directory. ACS adds five sibling directories (`memory/`, `knowledge/`, `state/`, `specs/`, `decisions/`) and a discovery protocol (`MANIFEST.yaml`, `BOOT.md`, `HARNESS.yaml`) for the surrounding project context.
 
@@ -497,7 +497,7 @@ ACS-1.0 is published under [CC-BY-4.0](https://creativecommons.org/licenses/by/4
 
 ## Origin
 
-Authored by [CONFIANZA23](https://confianza23.com) during the development of the STRATOS platform for Navantia (May 2026). The first L4-conforming project is STRATOS itself. ACS is now maintained as an open standard and contributions from any party are welcome.
+Authored by [CONFIANZA23](https://www.confianza23.es) during the development of the STRATOS platform for Navantia (May 2026). The first L4-conforming project is STRATOS itself. ACS is now maintained as an open standard and contributions from any party are welcome.
 
 ---
 

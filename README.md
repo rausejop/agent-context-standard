@@ -115,7 +115,7 @@ Full details in the [English spec](Agent_Context_Standard_v1.0.en.md#compliance-
 
 ## 🤝 Contributing
 
-The Agent Context Standard format was originally developed by [CONFIANZA23](https://confianza23.com), released as an open standard, and is being adopted by a growing number of agent products. **The standard is open to contributions from the broader ecosystem.**
+The Agent Context Standard format was originally developed by [CONFIANZA23](https://www.confianza23.es), released as an open standard, and is being adopted by a growing number of agent products. **The standard is open to contributions from the broader ecosystem.**
 
 Ways to contribute:
 
@@ -139,7 +139,7 @@ ACS-1.0 is published under [**Creative Commons Attribution 4.0 International (CC
 
 ## 🏛️ Maintained by
 
-[**CONFIANZA23**](https://confianza23.com) · Madrid, Spain
+[**CONFIANZA23**](https://www.confianza23.es) · Madrid, Spain
 
 ACS is open to contributions from the broader ecosystem. Open an issue or pull request on this repository to participate.
 
