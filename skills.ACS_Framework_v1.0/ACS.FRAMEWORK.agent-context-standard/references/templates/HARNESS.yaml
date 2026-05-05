@@ -1,0 +1,37 @@
+acs_version: "1.0"
+kind: harness-shims
+
+# Per-harness entry files at the PROJECT ROOT (paths relative to project root, not to llm-session/).
+# Each harness auto-discovers its native filename; the shim's only job is to forward the agent to llm-session/BOOT.md.
+# Source of truth: BOOT.md. Edit it, then regenerate shims.
+
+harnesses:
+  claude-code:
+    entry_shim: CLAUDE.md
+    skills_path: llm-session/skills
+    settings: .claude/settings.local.json
+    notes: "Native auto-load of CLAUDE.md."
+
+  gemini-cli:
+    entry_shim: GEMINI.md
+    skills_path: llm-session/skills
+    settings: .gemini/config.json
+    notes: "Gemini CLI honours GEMINI.md as its system context file."
+
+  cursor:
+    entry_shim: .cursorrules
+    skills_path: llm-session/skills
+    settings: .cursor/settings.json
+    notes: "Cursor reads .cursorrules as the rules file injected into every prompt."
+
+  antigravity:
+    entry_shim: AGENTS.md
+    skills_path: llm-session/skills
+    settings: .antigravity/config.yaml
+    notes: "Google Antigravity uses AGENTS.md as the multi-agent collaboration entry."
+
+  continue-dev:
+    entry_shim: .continue/system.md
+    skills_path: llm-session/skills
+    settings: .continue/config.json
+    notes: "Continue.dev injects system.md into the system prompt."

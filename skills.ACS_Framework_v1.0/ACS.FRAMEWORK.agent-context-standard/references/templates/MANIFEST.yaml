@@ -1,0 +1,49 @@
+acs_version: "1.0"
+kind: agent-context
+
+project:
+  name: <PROJECT_NAME>
+  build: "<VERSION>"
+  description: "<short project description, ≤200 chars>"
+  language: en
+
+directory:
+  canonical: llm-session
+  aliases:
+    - .agent
+
+agents:
+  primary: claude-code
+  compatible:
+    - claude-code
+    - gemini-cli
+    - cursor
+    - antigravity
+    - continue-dev
+
+boot:
+  entry: BOOT.md
+  load_order:
+    - memory
+    - skills
+    - specs
+    - decisions
+    - knowledge
+    - state
+  required_indexes:
+    - memory/INDEX.md
+    - skills/INDEX.md
+    - specs/INDEX.md
+  glob_reads:
+    - state/session_*.md
+
+schemas:
+  memory: 1
+  knowledge: 1
+  skill: 1
+  spec: 1
+  decision: 1
+
+invariants: []
+
+extensions: {}
